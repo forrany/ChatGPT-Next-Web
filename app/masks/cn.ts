@@ -2,7 +2,6 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
-    "id": 1,
     "avatar": "1f361",
     "name": "CSS转CSSinJS",
     "context": [
@@ -43,10 +42,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "compressMessageLengthThreshold": 1000
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 2,
     "avatar": "1f473-200d-2642-fe0f",
     "name": "国际化文件生成器",
     "context": [
@@ -67,10 +65,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "compressMessageLengthThreshold": 1000
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 3,
     "avatar": "1f468-200d-1f4bb",
     "name": "代码解释&注释器【专业版】",
     "context": [
@@ -91,10 +88,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "compressMessageLengthThreshold": 1000
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 4,
     "avatar": "1f6e0-fe0f",
     "name": "代码注释器【简洁版】",
     "context": [
@@ -115,10 +111,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "compressMessageLengthThreshold": 1000
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 5,
     "avatar": "1f30d",
     "name": "国际化改造",
     "context": [
@@ -151,10 +146,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "template": "{{input}}"
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 6,
     "avatar": "1f916",
     "name": "文章生成机器人",
     "context": [
@@ -177,10 +171,9 @@ export const CN_MASKS: BuiltinMask[] = [
       "template": "{{input}}"
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
-    "id": 7,
     "avatar": "1f635-200d-1f4ab",
     "name": "标题生成器",
     "context": [
@@ -203,7 +196,7 @@ export const CN_MASKS: BuiltinMask[] = [
       "template": "{{input}}"
     },
     "lang": "cn",
-    "builtin": false
+    "builtin": true
   },
   {
     avatar: "1f5bc-fe0f",
