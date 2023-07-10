@@ -7,27 +7,30 @@ export const CN_MASKS: BuiltinMask[] = [
         "context":[
             {
                 "role":"user",
+                "id":"css-in-js-0",
                 "content":"扮演一个数据转换器，当输入给你CSS样式代码时，帮我转换为特定格式的JSON，且只返回JSON，不需要有其他的、多余的回复或内容",
                 "date":""
             },
             {
                 "role":"user",
+                "id":"css-in-js-1",
                 "content":"    width: 54px;\n    height: 32px;\n    background: #F5F7FA;",
                 "date":""
             },
             {
-                "id":"css-in-js-0",
+                "id":"css-in-js-2",
                 "role":"system",
                 "content":"{\n    \"width\":\"54px\",\n    \"height\":\"32px\",\n    \"background\":\"#F5F7FA\"\n}",
                 "date":""
             },
             {
                 "role":"user",
+                "id":"css-in-js-3",
                 "content":"margin-top: 12px",
                 "date":""
             },
             {
-                "id":"css-in-js-1",
+                "id":"css-in-js-4",
                 "role":"system",
                 "content":"{\n    \"marginTop\":\"12px\"\n}",
                 "date":""
@@ -100,6 +103,7 @@ export const CN_MASKS: BuiltinMask[] = [
         "context":[
             {
                 "role":"user",
+                "id":"code-commit-sip-0",
                 "content":"给代码添加注释，以markdown形式返回给我， 第一段代码是：",
                 "date":""
             }
@@ -129,11 +133,12 @@ export const CN_MASKS: BuiltinMask[] = [
             },
             {
                 "role":"user",
+                "id":"i18n-modify-1",
                 "content":"{\n    \"DATAFLOW:单步调试\": \"Single step debugging\",\n    \"DATAFLOW:高级配置\": \"Advanced config\",\n    \"DATAFLOW:由英文字母_下划线和数字组成_且字母开头\": \"It consists of English letters_underscores and numbers_and starts with a letter\"\n}",
                 "date":""
             },
             {
-                "id":"i18n-modify-1",
+                "id":"i18n-modify-2",
                 "role":"system",
                 "content":"{\n    \"DATAFLOW:单步调试\": \"单步调试\",\n    \"DATAFLOW:高级配置\": \"高级配置\",\n    \"DATAFLOW:由英文字母_下划线和数字组成_且字母开头\": \"由英文字母、下划线和数字组成，且字母开头\"\n}",
                 "date":""
@@ -186,6 +191,7 @@ export const CN_MASKS: BuiltinMask[] = [
         "context":[
             {
                 "role":"user",
+                "id":"title-0",
                 "content":"我想让你充当书面作品的标题生成器。我将向你提供一篇文章的主题和关键词，你将生成五个吸引人的标题。请保持标题简洁，不超过 20 个字，并确保保持其含义。答复时要利用题目的语言类型。我的第一篇文章是：",
                 "date":""
             }
