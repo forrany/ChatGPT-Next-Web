@@ -46,6 +46,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "historyMessageCount":4,
             "compressMessageLengthThreshold":1000
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -70,6 +71,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "historyMessageCount":4,
             "compressMessageLengthThreshold":1000
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -94,6 +96,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "historyMessageCount":4,
             "compressMessageLengthThreshold":1000
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -118,6 +121,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "historyMessageCount":4,
             "compressMessageLengthThreshold":1000
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -156,6 +160,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "frequency_penalty":0,
             "template":"{{input}}"
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -182,6 +187,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "compressMessageLengthThreshold":1000,
             "template":"{{input}}"
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
@@ -208,6 +214,7 @@ export const CN_MASKS: BuiltinMask[] = [
             "compressMessageLengthThreshold":1000,
             "template":"{{input}}"
         },
+        "createdAt":1688977256959,
         "lang":"cn",
         "builtin":true
     },
